@@ -1,0 +1,7 @@
+flname,flid,src,dest,id,name,em,ph,dist
+Indigo,6E500,Hydrabad,Pune,p101,PM,pm@gmail.com,8976543,350
+Indigo,6E501,Bengaluru,Pune,p102,PM,pm@gmail.com,8976544,351
+AirIndia,AI850,Hydrabad,Chennai,p103,PM,pm@gmail.com,8976545,352
+Spicejet,SG301,Mumbai,Bengaluru,p104,PM,pm@gmail.com,8976546,353
+Spicejet,SG302,Bengaluru,Delhi,p105,PM,pm@gmail.com,8976547,354
+AirIndia,AI900,Pune,Bengaluru,p106,PM,pm@gmail.com,8976548,355
