@@ -1,0 +1,7 @@
+Ubuntu Commands
+
+g++ flight-test.cpp Flight.cpp passenger.cpp -c
+g++ flight-test.o Flight.o passenger.o  -lgtest -lgtest_main -lpthread -o out
+g++ booking-test.cpp Flight.cpp passenger.cpp booking-test.cpp -c
+g++ booking-test.o Flight.o passenger.o Booking.o -lgtest -lgtest_main -lpthread -o out
+
