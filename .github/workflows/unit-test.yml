@@ -22,6 +22,6 @@ jobs:
     - name: make all
       run:  make -C source/
     - name: Change mode
-      run: cd source && chmod a+x all.out
+      run: cd Aviation_management_c--main && chmod a+x all.out
     - name: unit test
-      run: cd source && ./all.out
+      run: cd Aviation_management_c--main && ./all.out
