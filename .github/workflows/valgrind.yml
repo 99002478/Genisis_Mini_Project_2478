@@ -19,5 +19,4 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        make test -C Aviation_management_c--main/
-        valgrind .Aviation_management_c--main/all.out
+        valgrind chmod 777 ./Aviation_management_c--main/all.out 
