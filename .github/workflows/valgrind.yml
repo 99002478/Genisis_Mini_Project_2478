@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C Aviation_management_c--main/
-        valgrind .Aviation_management_c--main/build/all.out
+        valgrind .Aviation_management_c--main/all.out
