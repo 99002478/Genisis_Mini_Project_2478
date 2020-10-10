@@ -8,12 +8,12 @@ on:
 
 jobs:
   build:
-
+    name: cppcheck
     runs-on: ubuntu-latest
-
     steps:
-    - name: Install gtest manually
-      run: sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cp *.a /usr/lib && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
-    - uses: actions/checkout@v1 
-    - name: Unit Test
-      run: chmod 777 ./Aviation_management_c--main/all.out 
+      - uses: actions/checkout@v2
+        
+      - name: Install cppcheck
+        run: sudo apt-get -y install cppcheck
+      - name: Cppcheck code
+        run: cppcheck 
