@@ -20,7 +20,7 @@ jobs:
     
       
     - name: make all
-      run:  make -C source/
+      run:  make -C Aviation_management_c--main /
     - name: Change mode
       run: cd Aviation_management_c--main && chmod a+x all.out
     - name: unit test
