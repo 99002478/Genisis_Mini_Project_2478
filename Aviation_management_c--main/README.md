@@ -1,8 +1,9 @@
-# Aviation_management_c-
+# Aviation_management_c
+
 <h2>Module/s</h2> 
 Modules linked to the miniproject - C++ 
 
-##Topic and Subtopics
+<h2>Topic and Subtopics</h2>
 
 Virtual Functions- A virtual function is a member function which is declared within a base class and is re-defined(Overriden) by a derived class.
 
@@ -16,6 +17,6 @@ STL Containers- The Standard Template Library (STL) is a set of C++ template cla
 
 Iterators- Iterators are used to point at the memory addresses of STL containers. They are primarily used in sequence of numbers, characters etc. They reduce the complexity and execution time of program.
 
-##Implementation Summary 
+<h2>Implementation Summary</h2> 
 The project Aviation Management was implemented using C++ concepts like Virtual functions, Dynamic Binding, Templates, File Handling, STL concepts, Iterators.
 By using the virtual functions the Inheritance concepts are used like the Flight class is inherited by the Passenger class. The File Handling concepts helped in taking the values from the file which was in the csv format.  
